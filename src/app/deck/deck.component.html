@@ -1,0 +1,8 @@
+<div class="row">
+  <button (click) = buildDeck(true)>Build Deck</button>
+  <button (click) = buildDeck(false)>Cancel</button>
+  <label>name:
+    <input [(ngModel)]="deck.name" placeholder="name"/>
+    <h2>{{deck.name}}</h2> {{activeDeck}}
+  </label>
+</div>

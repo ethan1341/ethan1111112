@@ -1,0 +1,10 @@
+.grey{
+  background-color:grey;
+}
+
+.pull-left{
+  float:left !important;
+}
+li {
+  list-style-type: none;
+}
